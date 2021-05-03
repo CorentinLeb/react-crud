@@ -24,16 +24,16 @@ const Create = () => {
       <div className="form">
         <input
           type="text"
-          placeholder="Auteur"
+          placeholder="Votre nom"
           value={author}
           onChange={(e) => setAuthor(e.target.value)}
         />
         <textarea
-          placeholder="Citation"
+          placeholder="Votre avis"
           value={text}
           onChange={(e) => setText(e.target.value)}
         />
-      <button onClick={createQuote}>Create</button>
+      <button onClick={createQuote}>Poster</button>
       </div>
     </div>
   );

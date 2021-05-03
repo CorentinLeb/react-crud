@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <main>
             <nav>
-                <h1>React Crud</h1>
+                <h1>Laissez moi votre avis !</h1>
                 <h4>Bonjour {firebase.auth().currentUser.displayName}</h4>
                 <div onClick={() => firebase.auth().signOut()}>Se déconnecter</div>
             </nav>
